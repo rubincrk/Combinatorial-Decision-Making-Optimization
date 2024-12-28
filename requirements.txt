@@ -1,0 +1,6 @@
+docplex==2.27.239
+ortools==9.10.4067
+z3-solver
+minizinc
+pulp
+highspy
