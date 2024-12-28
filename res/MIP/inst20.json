@@ -1,0 +1,14 @@
+{
+    "ortools": {
+        "time": 300,
+        "optimal": false,
+        "obj": 0,
+        "sol": "N/A"
+    },
+    "cplex": {
+        "time": 300,
+        "optimal": false,
+        "obj": 0,
+        "sol": "N/A"
+    }
+}
