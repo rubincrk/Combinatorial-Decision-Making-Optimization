@@ -11,7 +11,9 @@ As the combinatorial decision and optimization expert, students are asked
  Moreover, the maximum load 'l_i' of the courier 'i' should be respected when items are assigned to it. <br>
  To achieve a fair division among drivers, the objective is to minimize the maximum distance travelled by any courier.<br>
 The project work involves approaching the problem using (i) Constraint Programming (CP), (ii) propositional SATisfiability (SAT) and/or its extension to Satisfiability Modulo Theories (SMT), and
- (iii) Mixed-Integer Linear Programming (MIP).
+ (iii) Mixed-Integer Linear Programming (MIP).<br>
+ For the Constraint Programming part it was used MiniZinc, for the SMT part it was used the Z3 solver while the MIP was implemented using OR-Tools’ python library, PuLP and the CPLEX Python API Docplex. <br>
+ For OR-Tools was used the solver SCIP while for PuLP were used both CBC and HIGHS.
 
 
 ## Docker instructions
