@@ -1,6 +1,18 @@
 # CDMO Project
+As the combinatorial decision and optimization expert, students are asked
+ to solve the Multiple Couriers Planning (MCP) problem which is defined as
+ follows. <br>
+ We have m couriers that must distribute n ≥ m items at different
+ customer locations. <br>
+ Each courier 'i' has a maximum load size 'l_i'. <br> 
+ Each item 'j' has a distribution point 'j' and a size 'sj' (which can represent for instance a weight or a volume). <br>
+ The goal of MCP is to decide for each courier the items to be distributed and plan a tour (i.e. a sequence of location points to visit) to perform the necessary distribution tasks.<br>
+ Each courier tour must start and end at a given origin point 'o'. <br>
+ Moreover, the maximum load 'l_i' of the courier 'i' should be respected when items are assigned to it. <br>
+ To achieve a fair division among drivers, the objective is to minimize the maximum distance travelled by any courier.<br>
+The project work involves approaching the problem using (i) Constraint Programming (CP), (ii) propositional SATisfiability (SAT) and/or its extension to Satisfiability Modulo Theories (SMT), and
+ (iii) Mixed-Integer Linear Programming (MIP).
 
-Models using MiniZinc, SMT and MIP in order to solve the multiple couriers planning problem.
 
 ## Docker instructions
 
